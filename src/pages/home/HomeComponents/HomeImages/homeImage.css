@@ -1,0 +1,14 @@
+
+ @keyframes imageFadeInOut {
+    0% { opacity:40;} 5% { opacity:80;}  20% { opacity:90;}
+    40% { opacity:92;} 60% { opacity:94;}
+    80% { opacity:100;} 100% { opacity:95; transform: scale(1.05);}
+}
+
+.float {
+animation-name: imageFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
